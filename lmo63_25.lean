@@ -13,7 +13,7 @@ If z = 1, then 2^x = 0, impossible.
 If z = 2, then we have 3^x + 1 = 2^y.
 LHS is not divisible by 8, so y is either 1 or 2.
 If y = 1, then 3^x = 1, impossible in naturals.
-y = 2 works.
+y = 2 gives solution (x, y, z) = (1, 2, 2)
 
 -/
 
