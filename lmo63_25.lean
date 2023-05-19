@@ -68,7 +68,6 @@ begin
   have h' := (zmod.int_coe_zmod_eq_zero_iff_dvd (3^x+1) 8).mpr h,
   rw int.cast_add at h',
   simp at h',
-  -- have h3: (3: zmod 8)^2 = 1 := by ring,
   have h31: (3: zmod 8)^x+1 = 4 ∨ (3: zmod 8)^x+1 = 2 := 
     nat.rec_on x _ _,
     rw h' at h31, -- this should be much shorter, but whatever
