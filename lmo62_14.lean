@@ -28,6 +28,5 @@ end
 theorem lmo62_14 {a b: ℤ} (ha: ∃ x y : ℤ, a = x^2 - 5 * y ^ 2) (hb: ∃ x y : ℤ, b = x^2 - 5 * y ^ 2):
   ∃ x y : ℤ, a*b = x^2 - 5 * y ^ 2 :=
 begin
-  have h:= lmo62_14' ha hb,
-  exact h,
+  exact lmo62_14' ha hb,
 end
